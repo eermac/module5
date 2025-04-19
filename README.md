@@ -23,6 +23,20 @@ keytool -importcert -alias YandexCA -file /usr/local/share/ca-certificates/Yande
 Пользователи 
 ![img_5.png](img_5.png)
 
+Добавил и успешно развернул Schema Registry
+
+![img_13.png](img_13.png)
+
+Запуск через Producer - ProducerWithSR, Consumer - ConsumerWithSR
+![img_12.png](img_12.png)
+
+Отправка сообщения 
+![img_15.png](img_15.png)
+
+Прием сообщения
+![img_14.png](img_14.png)
+
+
 <h1>Задание 2</h1>
 Сервиса nifi в облаке я не нашел, потому развернул его локлаьно.
 

@@ -13,7 +13,7 @@ import java.util.concurrent.CountDownLatch;
 public class ConsumerWithSR {
 
     public static void main(String[] args) {
-        String bootstrapServers = "localhost:9094,localhost:9095,localhost:9096";
+        String bootstrapServers = "localhost:9094";
         String schemaRegistryUrl = "http://localhost:8081";
         String topic = "user";
         String groupId = "group";

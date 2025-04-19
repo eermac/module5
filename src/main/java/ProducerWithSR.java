@@ -11,7 +11,7 @@ import java.util.Properties;
 public class ProducerWithSR {
 
     public static void main(String[] args) {
-        String bootstrapServers = "localhost:9094,localhost:9095,localhost:9096";
+        String bootstrapServers = "localhost:9094";
         String schemaRegistryUrl = "http://localhost:8081";
         String topic = "user";
 
